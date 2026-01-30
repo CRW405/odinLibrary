@@ -1,0 +1,39 @@
+#bookshelf {
+  display: flex;
+  flex-direction: row;
+}
+
+.book {
+  background-color: #551100;
+  padding: 1rem;
+  height: 20rem;
+  width: 5rem;
+  color: gold;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+}
+
+.book h2 {
+  display: block;
+  font-size: 1em;
+  justify-self: flex-start;
+}
+
+.book h3 {
+  display: block;
+  font-size: 0.75em;
+}
+
+.book span {
+  display: block;
+}
+
+.read {
+  border-left: 5px solid green;
+}
+
+.unread {
+  border-left: 5px solid red;
+}
